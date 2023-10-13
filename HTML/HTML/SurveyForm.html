@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay From</title>
+    <link rel="stylesheet" href="/CSS/Form.css">
+    <script type="text/javascript" src="/Js/form.js"></script>
+</head>
+<style type="text/css">
+
+
+</style>
+<body>
+    <div class="m-div">
+        <h1 id="h1">Customer Survey Form</h1>
+        <form id="form-div" type="submit">
+            <div class="d-div">
+                <label class="label">Name <br>
+                    <input type="text" class="inp" id="name"  placeholder="Name" required>
+                </label> 
+                <label class="label">Email <br>
+                    <input type="email" class="inp email" id="email"  placeholder="example@gamil.com" required>
+                </label> 
+            </div>
+            <div class="r-btn">
+                <p>Is this first time you are using our produts & service?  </p>
+                <label><input id="q11" type="radio" name="q1" class="radio-inp" value="Yes" required> Yes  <input id="q12" type="radio" name="q1" class="radio-inp" value="No"></button> No  </label>
+            </div><br>
+            <div class="r-btn">
+                <p>Would you suggestion to your friends and collages?</p>
+                <label><input id="q21"type="radio" name="q2" class="radio-inp" value="Yes" required> Yes  <input id="q22"type="radio" name="q2" class="radio-inp" value="No"></button> No  </label>
+            </div><br>
+            <div class="r-btn">
+                <p>How satisfied are you with our comapany overall?</p>
+                <label><input id="q31" type="radio" name="q3" class="radio-inp" value="Yes" required> Yes  <input id="q32" type="radio" name="q3" class="radio-inp" value="No"></button> No  </label>
+            </div><br>
+            
+            <div class="s-div">
+                <p>Do you have any suggestion to improve our service?</p>
+                <textarea id="tarea" placeholder="give your suggestions here..."></textarea>
+            </div>
+            <button class="btn" type="submit" onclick="check()">Submit</button>
+            </div>
+        </form>
+      
+    </div>
+</body>
+<script type="text/javascript">
+ 
+</script>
+</html>
